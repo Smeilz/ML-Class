@@ -1,0 +1,5 @@
+reddit <- read.csv('reddit.csv')
+
+levels(reddit$age.range)
+library(ggplot2)
+qplot(data = reddit, x = age.range)

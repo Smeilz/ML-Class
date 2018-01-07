@@ -1,0 +1,7 @@
+installed.packages('ggplot2')
+library(ggplot2)
+getwd()
+pf <- read.csv('pseudo_facebook.tsv', sep = '\t')
+names(pf)
+qplot(x = dob_day, data = pf)
+str(pf)

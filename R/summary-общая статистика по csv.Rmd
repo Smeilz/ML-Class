@@ -1,0 +1,4 @@
+reddit <- read.csv('reddit.csv')
+
+table(reddit$employment.status)
+summary(reddit)
